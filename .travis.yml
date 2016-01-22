@@ -1,4 +1,5 @@
 language: objective-c
 xcode_project: TravisDemo.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TravisDemo
+xcode_sdk: iphonesimulator
 osx_image: xcode7.2
