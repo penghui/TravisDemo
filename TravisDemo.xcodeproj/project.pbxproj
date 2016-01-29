@@ -14,18 +14,10 @@
 		EF3808071C522C3100B751DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3808061C522C3100B751DD /* Assets.xcassets */; };
 		EF38080A1C522C3100B751DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3808081C522C3100B751DD /* LaunchScreen.storyboard */; };
 		EF3808151C522C3100B751DD /* TravisDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3808141C522C3100B751DD /* TravisDemoTests.swift */; };
-		EF3808201C522C3100B751DD /* TravisDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38081F1C522C3100B751DD /* TravisDemoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		EF3808111C522C3100B751DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF3807F21C522C3100B751DD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF3807F91C522C3100B751DD;
-			remoteInfo = TravisDemo;
-		};
-		EF38081C1C522C3100B751DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF3807F21C522C3100B751DD /* Project object */;
 			proxyType = 1;
@@ -46,9 +38,6 @@
 		EF3808101C522C3100B751DD /* TravisDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3808141C522C3100B751DD /* TravisDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisDemoTests.swift; sourceTree = "<group>"; };
 		EF3808161C522C3100B751DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF38081B1C522C3100B751DD /* TravisDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF38081F1C522C3100B751DD /* TravisDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisDemoUITests.swift; sourceTree = "<group>"; };
-		EF3808211C522C3100B751DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF3808181C522C3100B751DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +63,6 @@
 			children = (
 				EF3807FC1C522C3100B751DD /* TravisDemo */,
 				EF3808131C522C3100B751DD /* TravisDemoTests */,
-				EF38081E1C522C3100B751DD /* TravisDemoUITests */,
 				EF3807FB1C522C3100B751DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +72,6 @@
 			children = (
 				EF3807FA1C522C3100B751DD /* TravisDemo.app */,
 				EF3808101C522C3100B751DD /* TravisDemoTests.xctest */,
-				EF38081B1C522C3100B751DD /* TravisDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,15 +97,6 @@
 				EF3808161C522C3100B751DD /* Info.plist */,
 			);
 			path = TravisDemoTests;
-			sourceTree = "<group>";
-		};
-		EF38081E1C522C3100B751DD /* TravisDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EF38081F1C522C3100B751DD /* TravisDemoUITests.swift */,
-				EF3808211C522C3100B751DD /* Info.plist */,
-			);
-			path = TravisDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +137,6 @@
 			productReference = EF3808101C522C3100B751DD /* TravisDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EF38081A1C522C3100B751DD /* TravisDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF38082A1C522C3100B751DD /* Build configuration list for PBXNativeTarget "TravisDemoUITests" */;
-			buildPhases = (
-				EF3808171C522C3100B751DD /* Sources */,
-				EF3808181C522C3100B751DD /* Frameworks */,
-				EF3808191C522C3100B751DD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF38081D1C522C3100B751DD /* PBXTargetDependency */,
-			);
-			name = TravisDemoUITests;
-			productName = TravisDemoUITests;
-			productReference = EF38081B1C522C3100B751DD /* TravisDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +151,6 @@
 						CreatedOnToolsVersion = 7.2;
 					};
 					EF38080F1C522C3100B751DD = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = EF3807F91C522C3100B751DD;
-					};
-					EF38081A1C522C3100B751DD = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = EF3807F91C522C3100B751DD;
 					};
@@ -222,7 +171,6 @@
 			targets = (
 				EF3807F91C522C3100B751DD /* TravisDemo */,
 				EF38080F1C522C3100B751DD /* TravisDemoTests */,
-				EF38081A1C522C3100B751DD /* TravisDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,13 +187,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF38080E1C522C3100B751DD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF3808191C522C3100B751DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,14 +214,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF3808171C522C3100B751DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF3808201C522C3100B751DD /* TravisDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +221,6 @@
 			isa = PBXTargetDependency;
 			target = EF3807F91C522C3100B751DD /* TravisDemo */;
 			targetProxy = EF3808111C522C3100B751DD /* PBXContainerItemProxy */;
-		};
-		EF38081D1C522C3100B751DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF3807F91C522C3100B751DD /* TravisDemo */;
-			targetProxy = EF38081C1C522C3100B751DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -443,30 +371,6 @@
 			};
 			name = Release;
 		};
-		EF38082B1C522C3100B751DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TravisDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.penghui.TravisDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TravisDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		EF38082C1C522C3100B751DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TravisDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.penghui.TravisDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TravisDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,6 +390,7 @@
 				EF3808261C522C3100B751DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3808271C522C3100B751DD /* Build configuration list for PBXNativeTarget "TravisDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -494,14 +399,7 @@
 				EF3808291C522C3100B751DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EF38082A1C522C3100B751DD /* Build configuration list for PBXNativeTarget "TravisDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF38082B1C522C3100B751DD /* Debug */,
-				EF38082C1C522C3100B751DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
