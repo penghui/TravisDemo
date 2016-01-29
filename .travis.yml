@@ -3,5 +3,9 @@ xcode_project: TravisDemo.xcodeproj
 xcode_scheme: TravisDemo
 xcode_sdk: iphonesimulator
 osx_image: xcode7.2
+before_install:
+  - pip install codecov
 script:
   - xctool build -project TravisDemo.xcodeproj -scheme TravisDemo -sdk iphonesimulator
+after_success:
+  - codecov
